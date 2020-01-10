@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'UKNumberPlate';
+    src: url('../UKNumberPlate.woff') format('woff'), url('UKNumberPlate.ttf')  format('truetype'), url('UKNumberPlate.svg#UKNumberPlate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+#main-content {
+    min-height: 100vh;
+    background-image: url('../assets/bg-bot.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+@media screen and (min-width: 1280px) {
+    #main-content {
+        background-size: cover;
+    }
+}
+
+
+  .reg-form {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .reg-form h2 {
+      font-size: 1.75rem;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+
+  .reg-instruction {
+      font-family: "Roboto", sans-serif;
+      color: #747474;
+      font-size: 0.875rem;
+  }
+
+  #reg-number {
+      background-color: #ffe70b;
+      font-family: 'UKNumberPlate', sans-serif;
+      font-size: 2rem;
+      max-width: 220px;
+      height: 65px;
+      border: 3px solid black;
+      border-radius: 6px;
+      margin-bottom: 25px;
+      text-align: center;
+  }
+
+  #reg-submit {
+      background-color: #70ed5b;
+      border: 1px solid #9ade6b;
+      border-radius: 3px;
+      height: 65px;
+      max-width: 220px;
+      font-size: 1.1rem;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+  }
+  
+  hr {
+    border-top: 2px solid #f3f3f3;
+  }
+
+  .table-heading {
+      font-family: 'Oswald', sans-serif;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      padding-left: 15px;
+      border-left: 4px solid #000;
+  }
+
+  .search-results td {
+      border-left: 4px solid #eee;
+      padding-left: 15px;
+      min-width: 150px;
+      font-family: "Roboto", sans-serif;
+  }
+
+  .search-results tr td:last-of-type {
+      font-weight: bold;
+  }
